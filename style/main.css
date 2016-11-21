@@ -39,8 +39,8 @@ html, body {
 body{
     margin:0;
     font-family: "Cormorant Garamond", Garamond, Times, Times New Roman, serif;
-    font-size:1rem;
-    line-height:1.5rem;
+    font-size:1.75rem;
+    line-height:2.5rem;
 	color:#ffffff;
     text-align:center;
 }
@@ -50,3 +50,8 @@ section {
 .not-fullscreen {
     height:50%;
 }
+
+h1, h2, h3, h4, h5, h6 { font-weight:normal; }
+
+/* section styles */
+section:nth-child(1) { color:red; }
