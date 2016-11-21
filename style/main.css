@@ -45,13 +45,14 @@ body{
     text-align:center;
 }
 section {
-	background:#9ed100;
+	background:#37748E;
 }
 .not-fullscreen {
     height:50%;
 }
 
 h1, h2, h3, h4, h5, h6 { font-weight:normal; }
+h2 { font-size:5rem; }
 
 .video-wrapper { width:65%; margin:0px auto; 
     max-height:60vh;
@@ -76,6 +77,3 @@ h1, h2, h3, h4, h5, h6 { font-weight:normal; }
 section:nth-child(1) h1 { font-size:15rem; }
 section:nth-child(1) h1 span { font-size:.6em; position:relative; top:-0.15em; }
 section:nth-child(1) h3 { font-size:2rem; font-style: italic; padding-top:2em; }
-
-section:nth-child(2) { }
-section:nth-child(2) h2 { font-size:5rem; }
