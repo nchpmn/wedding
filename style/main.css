@@ -34,6 +34,7 @@ html, body {
 	vertical-align:middle;
 	text-align:center;
 }
+.content-wrap { width:70%; margin:3em auto; }
 
 /* visual styles */
 body{
@@ -50,7 +51,7 @@ section {
     box-shadow: inset 0px 100px 120px -100px rgba(0, 0, 0, 0.25);
 }
 .not-fullscreen {
-    height:50%;
+    min-height:50%;
 }
 
 h1, h2, h3, h4, h5, h6 { font-weight:normal; }
@@ -81,7 +82,7 @@ section:nth-child(1) h1 { font-size:15rem; text-shadow:2px 2px 7px rgba(0,0,0,0.
 section:nth-child(1) h1 span { font-size:.6em; position:relative; top:-0.15em; }
 section:nth-child(1) h3 { font-size:2rem; font-style: italic; padding-top:2em; opacity:0.7 }
 
-section:nth-child(2) {
+section:nth-child(3) {
     background:
         linear-gradient(
       135deg,
